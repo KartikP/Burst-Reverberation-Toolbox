@@ -24,3 +24,6 @@ This approach involves three steps: first, inter-burst-interval and firing rate 
 1. Burst reverberations are defined as periods where the firing rate of the network has repeated rise-and-falls (i.e., bursts followed by quiescence) following an initial spike in activity. The inter-burst-interval (IBI) within a reverberation is considerably faster than the IBI between "super-bursts" (network bursts that contain reverberations). Firing rate of the initial burst is always larger than the firing rate of the reverberating bursts. Based on these two observations, IBI and firing rate was calculated for all bursts.
 2. K-means clustering was used to identify clusters in a 2-dimensional space (IBI, firing rate). Reverberating networks contained two clear, separable clusters while non-reverberating networks contained either one cluster or two clusters that overlapped in one of the dimensions.
 3. Procedural analysis based on burst distribution bimodality and skewness was used to validate the previous approach.
+
+# Script tree
+main_example.py --> organize_spikelist.py (preprocessing) --> run_brt.py --> burst_reverberation_toolbox.py & detect_reverb_clusters.py
