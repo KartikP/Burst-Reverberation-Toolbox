@@ -28,4 +28,4 @@ This approach involves three steps: first, inter-burst-interval and firing rate 
 # Script tree
 main_example.py --> organize_spikelist.py (preprocessing) --> run_brt.py --> burst_reverberation_toolbox.py & detect_reverb_clusters.py
 
-![algorithm_methodology - Copy](https://user-images.githubusercontent.com/2040394/192377280-cf60f5f4-df8e-4b26-a13c-d30b541589a6.png)
+![image](https://user-images.githubusercontent.com/2040394/192377656-c2bb8204-f5f1-4a3b-928d-4f207ad5c043.png)
