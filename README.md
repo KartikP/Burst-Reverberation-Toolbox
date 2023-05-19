@@ -1,31 +1,11 @@
 # Burst-Reverberation-Toolbox
-Toolbox for the detection and analysis of reverberating bursts in spiketrains
+The Burst Reverberation Toolbox (BRT) is a project that introduces a powerful electrophysiological tool designed to detect and analyze nested patterned bursts. These bursts, which arise from neuronal networks, represent a complex form of spontaneous activity characterized by a rapid succession of action potentials above a baseline firing rate. In the context of network development, synchronized bursts among neurons indicate the wiring and connectivity of the network.
 
+In the field of stem cell derived disease models, accurate and consistent detection of bursts is of utmost importance. However, currently available "off-the-shelf" burst detection algorithms provided by in vitro multielectrode array (MEA) systems are overly simplistic and lack the necessary control to effectively detect diverse patterning, particularly nested (oscillatory) bursts. Consequently, this limitation can have significant implications on the analysis of phenotypic endpoints for rescue experiments.
 
-This is a beta version of Python package to detect and analyze reverberating bursts in electrophysiological recordings. The detection involves four steps:
-1. Pre-processing
-2. Spike density function
-3. Burst detection
-4. Burst reverberation detection
-Once reverberating bursts are detected, analysis and generation of features are performed.
+The primary objective of the BRT project is to address these concerns by offering a flexible and transparent burst detection solution specifically tailored for temporally complex MEA data. The BRT will provide researchers with enhanced control over burst detection algorithms, allowing for improved accuracy and adaptability to diverse burst patterns. By overcoming the limitations of existing approaches, the BRT will empower researchers to conduct more comprehensive analyses, leading to a deeper understanding of neural network behavior in stem cell derived disease models.
 
-## 1. Pre-processing
-Removes metadata from Axion MEA spikelist (mixed-bag of chronologically order spikes across 12 plates x 64 channels) and organizes a spike list of times for each channel for each well. 
+The BRT project is currently under active development and is expected to be made available in the upcoming publication by Pradeepan et al., scheduled for release in 2023 (in prep). Through this innovative toolbox, researchers will have access to cutting-edge tools and methodologies to further their understanding of neuronal network dynamics and facilitate advancements in the field of electrophysiological research.
 
-## 2. Spike denisty function
-Spike times  for each channel are converted to a binary spike matrix. Binary spike matrices are convolved with a guassian function (kernel width = 0.075s). <i>In future versions, kernel width is adaptively determined based on inter-spike-intervals (ISIs).</i> Convolution of kernel with spikematrix generates a spike density function, which is used as an estimate of instantaneous firing rate of the channel. Weighted mean firing rate for the network is calculated by taking the firing-rate-weighted average of all channels within a network.
-
-## 3. Burst detection
-Prime bursts are defined as periods where the network firing rate has a prominence greater than 40% of max firing rate (when max firing rate is greater than 5Hz) - identified as being robust network bursts. Potential bursts are identified as periods where the network firing rate is greater than noise with a prominence greater than deviations from the noise. <i>Improved signal-to-noise measure is implemented in future versions.</i> Potential bursts are combined with prime bursts to generate all bursts.
-
-## 4. Burst reverberation detection
-This approach involves three steps: first, inter-burst-interval and firing rate for each burst is calculated, second, a K-means clustering approach is used to identify clusters, and third, a procedural analysis is used to validate step 2 and generate features.
-
-1. Burst reverberations are defined as periods where the firing rate of the network has repeated rise-and-falls (i.e., bursts followed by quiescence) following an initial spike in activity. The inter-burst-interval (IBI) within a reverberation is considerably faster than the IBI between "super-bursts" (network bursts that contain reverberations). Firing rate of the initial burst is always larger than the firing rate of the reverberating bursts. Based on these two observations, IBI and firing rate was calculated for all bursts.
-2. K-means clustering was used to identify clusters in a 2-dimensional space (IBI, firing rate). Reverberating networks contained two clear, separable clusters while non-reverberating networks contained either one cluster or two clusters that overlapped in one of the dimensions.
-3. Procedural analysis based on burst distribution bimodality and skewness was used to validate the previous approach.
-
-# Script tree
-main_example.py --> organize_spikelist.py (preprocessing) --> run_brt.py --> burst_reverberation_toolbox.py & detect_reverb_clusters.py
 
 ![image](https://user-images.githubusercontent.com/2040394/192377656-c2bb8204-f5f1-4a3b-928d-4f207ad5c043.png)
