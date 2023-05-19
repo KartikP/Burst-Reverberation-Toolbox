@@ -11,18 +11,20 @@ GUI made with CustomTkinter/Tkinter and packaged with Pyinstaller.
 
 <img width="1312" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/a347bc99-d9be-411e-9f25-dbe08f8fb147">
 
-*Simple and straight forward user interface*
+>Simple and straight forward user interface
 
 <img width="1312" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/3e810021-dac3-436f-83c9-33caaf05ec6b">
 
 
-*Batch processing of all wells within a plate*
+>Batch processing of all wells within a plate
+
+
 <img width="1312" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/c3931d53-bf26-472d-8e8c-cee6b653bc1f">
 
-*Interactive plots*
+>Interactive plots
 
 <img width="562" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/779433ed-174e-4815-a130-f6c7f6964dea">
 
-*Settings to give users flexibility in burst detection*
+>Settings to give users flexibility in burst detection
 
 
