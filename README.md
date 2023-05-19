@@ -7,6 +7,7 @@ The primary objective of the BRT project is to address these concerns by offerin
 
 The BRT project is currently under active development and is expected to be made available in the upcoming publication by Pradeepan et al., scheduled for release in 2023 (in prep). Through this innovative toolbox, researchers will have access to cutting-edge tools and methodologies to further their understanding of neuronal network dynamics and facilitate advancements in the field of electrophysiological research.
 
+GUI made with CustomTkinter/Tkinter and packaged with Pyinstaller.
 
 ![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f07d07b0-4897-4c40-aefc-b9839482f71c)
 *Simple and straight forward user interface*
