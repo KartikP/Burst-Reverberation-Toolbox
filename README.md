@@ -9,15 +9,20 @@ The BRT project is currently under active development and is expected to be made
 
 GUI made with CustomTkinter/Tkinter and packaged with Pyinstaller.
 
-![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f07d07b0-4897-4c40-aefc-b9839482f71c)
+<img width="1312" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/a347bc99-d9be-411e-9f25-dbe08f8fb147">
+
 *Simple and straight forward user interface*
-![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f8a0d9fa-4443-491e-8c3e-c3fed8ec5bfd)
+
+<img width="1312" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/3e810021-dac3-436f-83c9-33caaf05ec6b">
+
+
 *Batch processing of all wells within a plate*
-![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/cfa5eb1b-a3ae-4fbe-baf3-63f49a2e8634)
+<img width="1312" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/c3931d53-bf26-472d-8e8c-cee6b653bc1f">
+
 *Interactive plots*
-![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/b8bc104f-04cb-4ff0-8aac-786080d23584)
-*Identify and display nested bursts*
-![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f5ecfa83-4736-4463-9b18-8cc21971b002)
+
+<img width="562" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/779433ed-174e-4815-a130-f6c7f6964dea">
+
 *Settings to give users flexibility in burst detection*
 
 
