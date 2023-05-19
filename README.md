@@ -8,4 +8,15 @@ The primary objective of the BRT project is to address these concerns by offerin
 The BRT project is currently under active development and is expected to be made available in the upcoming publication by Pradeepan et al., scheduled for release in 2023 (in prep). Through this innovative toolbox, researchers will have access to cutting-edge tools and methodologies to further their understanding of neuronal network dynamics and facilitate advancements in the field of electrophysiological research.
 
 
-![image](https://user-images.githubusercontent.com/2040394/192377656-c2bb8204-f5f1-4a3b-928d-4f207ad5c043.png)
+![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f07d07b0-4897-4c40-aefc-b9839482f71c)
+*Simple and straight forward user interface*
+![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f8a0d9fa-4443-491e-8c3e-c3fed8ec5bfd)
+*Batch processing of all wells within a plate*
+![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/cfa5eb1b-a3ae-4fbe-baf3-63f49a2e8634)
+*Interactive plots*
+![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/b8bc104f-04cb-4ff0-8aac-786080d23584)
+*Identify and display nested bursts*
+![image](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f5ecfa83-4736-4463-9b18-8cc21971b002)
+*Settings to give users flexibility in burst detection*
+
+
