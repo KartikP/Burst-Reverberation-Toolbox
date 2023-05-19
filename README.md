@@ -1,7 +1,8 @@
 # Burst Reverberation Toolbox (BRT) for Advanced Electrophysiological Analysis
 
-*Code and application soon to be available*
 ---
+*Code and application soon to be available*
+
 
 The Burst Reverberation Toolbox (BRT) is a project that introduces a powerful electrophysiological tool designed to detect and analyze nested patterned bursts. These bursts, which arise from neuronal networks, represent a complex form of spontaneous activity characterized by a rapid succession of action potentials above a baseline firing rate. In the context of network development, synchronized bursts among neurons indicate the wiring and connectivity of the network.
 
