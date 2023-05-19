@@ -1,4 +1,6 @@
 # Burst Reverberation Toolbox (BRT) for Advanced Electrophysiological Analysis
+
+*Code and application soon to be available*
 ---
 
 The Burst Reverberation Toolbox (BRT) is a project that introduces a powerful electrophysiological tool designed to detect and analyze nested patterned bursts. These bursts, which arise from neuronal networks, represent a complex form of spontaneous activity characterized by a rapid succession of action potentials above a baseline firing rate. In the context of network development, synchronized bursts among neurons indicate the wiring and connectivity of the network.
@@ -10,7 +12,7 @@ The primary objective of the BRT project is to address these concerns by offerin
 The BRT project is currently under active development and is expected to be made available in the upcoming publication by Pradeepan et al., scheduled for release in 2023 (in prep). Through this innovative toolbox, researchers will have access to cutting-edge tools and methodologies to further their understanding of neuronal network dynamics and facilitate advancements in the field of electrophysiological research.
 
 GUI made with CustomTkinter/Tkinter and packaged with Pyinstaller.
-*Code and application soon to be available*
+
 
 <img width="1312" alt="image" src="https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/a347bc99-d9be-411e-9f25-dbe08f8fb147">
 
