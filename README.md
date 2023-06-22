@@ -35,6 +35,7 @@ GUI made with CustomTkinter/Tkinter and packaged with Pyinstaller.
 
 
 # Algorithm Workflow
-![BRT_Block_Diagram](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f76638b9-b9df-4e1d-bc54-ec411f7be2af)
+![BRT_Block_Diagram](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/2497e0aa-1116-4275-868b-de457a65531c)
+
 
 
