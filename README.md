@@ -34,3 +34,7 @@ GUI made with CustomTkinter/Tkinter and packaged with Pyinstaller.
 >Settings to give users flexibility in burst detection
 
 
+# Algorithm Workflow
+![BRT_Block_Diagram](https://github.com/KartikP/Burst-Reverberation-Toolbox/assets/2040394/f76638b9-b9df-4e1d-bc54-ec411f7be2af)
+
+
